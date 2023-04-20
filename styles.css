@@ -8,6 +8,9 @@ body {
   --dark-grey: #a8a29e;
   --off-white: #f3f4f6;
 }
+#lib-header{
+    color: var(--primary-color);
+}
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
