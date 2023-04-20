@@ -28,9 +28,13 @@
 
     <h2>#Container</h2>
     <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till end of the page</div>
+    <div class="container">
+      This is a fluid container and it will go till end of the page
+    </div>
     <h3>center container</h3>
-    <div class="container container-center">This is center container and it will go till specified width</div>
+    <div class="container container-center">
+      This is center container and it will go till specified width
+    </div>
 
     <hr />
     <h2>#Links</h2>
@@ -39,40 +43,43 @@
     <hr />
     <h2>#Lists</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <p>This list will not have bullets</p>
+    <ul class="list-non-bullet">
       <li>Item one</li>
       <li>Item Two</li>
       <li>Item Three</li>
     </ul>
     <h3>Unordered Inline List</h3>
-    <ul>
-      <li>Inline Item One</li>
-      <li>Inline Item Two</li>
-      <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Inline Item One</li>
+      <li class="list-item-inline">Inline Item Two</li>
+      <li class="list-item-inline">Inline Item Three</li>
     </ul>
     <h3>Reverse ordered List</h3>
-    <ol>
+    <ol reversed>
       <li>Milk</li>
       <li>Eggs</li>
       <li>Bread</li>
     </ol>
     <hr />
     <h2>#Nav</h2>
-    <nav>
-      <div>IamBrand</div>
-      <ul>
-        <li>
-          <a href="/">Home</a>
+    <nav class="navigation container">
+      <div class="nav-brand">IamBrand</div>
+      <ul class="lidt-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
         </li>
-        <li><a href="/">products</a></li>
-        <li><a href="/">About</a></li>
+        <li class="list-item-inline"><a class="link" href="/">products</a></li>
+        <li class="list-item-inline"><a class="link" href="/">About</a></li>
       </ul>
     </nav>
     <hr />
     <h2>#Header</h2>
-    <header>
-      <img src="/Images/hero.svg" alt="" />
-      <h1>heading inside hero</h1>
+    <header class="hero">
+      <img class="hero-img" src="/Images/hero.svg" alt="" />
+      <h1 class="hero-heading">
+        I am Eldhose, a <span class="hero-highlight">Web Developer!</span>
+      </h1>
     </header>
     <hr />
     <h2>#Sections</h2>
@@ -96,6 +103,5 @@
       </ul>
     </footer>
     <hr />
-    
   </body>
 </html>
