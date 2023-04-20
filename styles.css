@@ -15,11 +15,18 @@ body {
     max-width: 600px;
     
 }
-.links{
+.link{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.primary-link{
+.link-primary{
     background-color: var(--primary-color);
-   
+    border-radius: 50px;
+    color:white;
+
+}
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
 }
