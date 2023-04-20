@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 :root{
-    --primary-color: red;
+    --primary-color: #10b981;
 }
 .container{
     padding-left:1rem;
