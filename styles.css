@@ -5,6 +5,7 @@ body {
 :root {
   --primary-color: #10b981;
   --dark-grey: #a8a29e;
+  --off-white: #f3f4f6;
 }
 .container {
   padding-left: 1rem;
@@ -86,7 +87,20 @@ hr {
   font-size: 200%;
   font-weight: 400;
 }
-.hero .hero-highlight {
+.hero .hero-heading .hero-highlight {
   color: var(--primary-color);
   font-weight: 700;
+}
+
+/**Sections**/
+
+.section {
+  padding: 1rem 0rem;
+}
+.section h1 {
+  text-align: center;
+  font-size: x-large;
+}
+.section-ow {
+  background-color: var(--off-white);
 }
