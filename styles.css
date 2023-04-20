@@ -2,3 +2,24 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+:root{
+    --primary-color: red;
+}
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.container-center{
+    margin: auto;
+    max-width: 600px;
+    
+}
+.links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+   
+}
