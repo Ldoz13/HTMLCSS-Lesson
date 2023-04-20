@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 :root {
   --primary-color: #10b981;
@@ -103,4 +104,22 @@ hr {
 }
 .section-ow {
   background-color: var(--off-white);
+}
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    color: white;
+}
+.footer .link{
+    color: white;
+    border: solid 2px white;
+  border-radius: 50px;
+ 
+  
+}
+.footer ul {
+    padding-inline-start:  0px;
 }
