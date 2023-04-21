@@ -64,7 +64,6 @@ font-weight: 500;
 .navigation .nav-brand {
   font-weight: bold;
   font-size: 1.2rem;
-  text-shadow: 0px 0px 10px var(--dark-grey);
  
 }
 .navigation .link-active {
@@ -112,7 +111,6 @@ font-weight: 500;
     background-color: var(--primary-color);
     padding: 2rem;
     text-align: center;
-    border-top-right-radius: 1rem;
     color: white;
 }
 .footer .link{
