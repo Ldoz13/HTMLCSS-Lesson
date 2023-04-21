@@ -117,8 +117,12 @@ font-weight: 500;
     color: white;
     border: solid 2px white;
   border-radius: 50px;
- 
+ font-size: smaller
   
+}
+.footer .footer-header{
+  font-weight: 400;
+  font-size: large;
 }
 .footer ul {
     padding-inline-start:  0px;
