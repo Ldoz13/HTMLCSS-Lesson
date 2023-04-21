@@ -109,7 +109,7 @@ font-weight: 500;
 /**footer**/
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     color: white;
 }
