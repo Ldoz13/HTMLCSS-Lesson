@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 :root {
-  --primary-color: #10b981;
+  --primary-color: #075985;
   --dark-grey: #a8a29e;
   --off-white: #f3f4f6;
 }
@@ -52,7 +52,8 @@ hr {
 }
 .navigation .link {
   color: white;
-  padding:.6rem 1rem;
+  padding:.5rem 1rem;/** making the pills look same when active**/
+ 
   border: solid 2px white;
   border-radius: 50px;
 }
@@ -63,14 +64,13 @@ font-size: 0.8rem;
 }
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.2rem;/** making the pills look same when active**/
- 
+  font-size: 1.2rem;
 }
 .navigation .link-active {
  border: none;
   background-color:var(--off-white);
   color: var(--primary-color);
-  padding:.7rem 1rem;/** making the pills look same when active**/
+  padding:.6rem 1rem;/** making the pills look same when active**/
 }
 
 /**header**/
