@@ -49,8 +49,6 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem 1rem;
-  border: solid 2px white;
-  border-bottom-left-radius: 1rem;
 }
 .navigation .link {
   color: white;
@@ -59,18 +57,19 @@ hr {
 }
 .navigation .nav-pills {
   text-align: right;
+
+  
 }
 .navigation .nav-brand {
   font-weight: bold;
   font-size: 1.2rem;
-  
-  padding: 1rem 1rem;
+  text-shadow: 0px 0px 10px var(--dark-grey);
  
 }
 .navigation .link-active {
-  border: solid 2px white;
-  border-radius: 50px;
-  font-weight: 700;
+ border: none;
+  background-color:var(--off-white);
+  color: var(--primary-color);
 }
 
 /**header**/
